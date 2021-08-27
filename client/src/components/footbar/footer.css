@@ -1,0 +1,18 @@
+.footer {
+        display: flex;
+        align-items: center;
+        background: #344;
+        height: 4rem;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+}
+
+.copyRight {
+        position: relative;
+        text-align: center;
+        color: white;
+        top: 1.5rem;
+        left: 1rem;
+}

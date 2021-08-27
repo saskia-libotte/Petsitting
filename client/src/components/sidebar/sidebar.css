@@ -1,0 +1,40 @@
+.sidebar {
+        flex: 3;
+        margin: 20px;
+        padding-bottom: 30px;
+        background-color: #055052;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #f3f2c9;
+}
+.title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.smallTitle {
+        margin: 10px;
+        padding: 5px;
+        width: 80%;
+        border-top: 1px solid #f3f2c9;
+        border-bottom: 1px solid #f3f2c9;
+        font-size: 20px;
+        color: #222;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        color: #f3f2c9;
+}
+
+.image {
+        margin-top: 15px;
+        width: 300px;
+        margin-left: 10px;
+}
+
+.desc {
+        padding: 20px;
+}

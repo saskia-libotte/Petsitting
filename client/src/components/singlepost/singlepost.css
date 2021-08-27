@@ -1,0 +1,88 @@
+.singlePost {
+        flex: 9;
+}
+.warpper {
+        padding: 20px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+}
+
+.image {
+        border-radius: 7px;
+        object-fit: cover;
+}
+
+.title {
+        text-align: center;
+        margin: 10px;
+        font-size: 28px;
+}
+
+.edit {
+        font-size: 20px;
+}
+
+.editIcone {
+        margin: 10px;
+        cursor: pointer;
+        color: rgb(16, 170, 170);
+}
+
+.deleteIcone {
+        margin: 15px;
+        font-size: 24px;
+        cursor: pointer;
+        color: tomato;
+}
+
+.postInfo {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+}
+
+.postAuthor {
+        cursor: pointer;
+        margin: 15px;
+}
+
+.posteDate {
+        margin: 20px;
+}
+
+.titleInput {
+        margin: 10px;
+        font-size: 28px;
+        text-align: center;
+}
+
+.titleinput:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid gray;
+}
+
+.descInput {
+        margin: 10px;
+        font-size: 28px;
+        text-align: center;
+}
+
+.descInput:focus {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid gray;
+}
+
+.singlePostButton {
+        width: 100px;
+        border: none;
+        background-color: teal;
+        padding: 10px;
+        color: white;
+        border-radius: 7px;
+        cursor: pointer;
+        align-self: flex-end;
+        margin-top: 20px;
+}
